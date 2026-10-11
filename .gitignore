@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# SQLite Database
+*.db
+*.sqlite3
+
+# Generated Certificates (keep the directory structure via .gitkeep)
+generated/*
+!generated/.gitkeep
+
+# Environment & IDE
+.env
+.idea/
+.vscode/
+*.swp
+*.swo
