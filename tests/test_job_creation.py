@@ -54,3 +54,4 @@ def test_create_generation_job_success(client: TestClient, db):
     recipient_names = [c.recipient_name for c in certs]
     assert "Dhurai Murugan" in recipient_names
     assert "Arun Kumar" in recipient_names
+ 
